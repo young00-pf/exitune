@@ -191,6 +191,7 @@ body {
 /* #visual */
 #visual {
     width: 100%;
+    height: 880px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -199,6 +200,8 @@ body {
 #visual img,
 #visual video {
     display: block;
+    width: 100%;
+    height: 100%;
 }
 
 /* section 공통 */
