@@ -185,12 +185,13 @@ body {
 .gnb li a:hover::before {
     background: #B7D05190;
     /* 백그라운드 */
-        inset: 14px 0;
+    inset: 14px 0;
 }
 
 /* #visual */
 #visual {
     width: 100%;
+    height: 880px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -199,6 +200,8 @@ body {
 #visual img,
 #visual video {
     display: block;
+    width: 100%;
+    height: 100%;
 }
 
 /* section 공통 */
@@ -400,6 +403,7 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
 #section2>.title {
     color: #fff;
     margin-bottom: 30px;
@@ -922,11 +926,12 @@ h2 {
     width: 50px;
     height: 50px;
     opacity: 0;
-    transition: all 0.5s;
     color: #67B230;
     text-align: center;
     font-weight: 700;
+    transition: all 0.5s;
 }
+
 .top-btn a img {
     width: 100%;
     object-fit: contain;
@@ -935,4 +940,3 @@ h2 {
 .opt {
     opacity: 1;
 }
-
