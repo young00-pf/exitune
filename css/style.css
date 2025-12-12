@@ -632,19 +632,34 @@ h2 {
     border-top: 1px solid #ccc;
 }
 
-.box1_1>ul>li>a {
+.commu-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
     border-bottom: 1px solid #ccc;
-    padding: 0 10px;
+    padding: 13px 10px;
     font-size: 22px;
+    cursor: pointer;
 }
 
-.box1_1>ul>li>a:hover {
+.box1_1>ul>li:hover .commu-title {
     color: #B7D051;
     transition: all 0.3s;
+}
+.commu-text {
+    padding: 30px 50px;
+    font-size: 16px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    background-color: #67B23030;
+}
+.commu-text p {
+    margin: 10px 0;
+}
+.commu-text img {
+    display: block;
+    width: 80%;
+    margin: 50px auto;
 }
 
 .box1_1>ul>li>span {
