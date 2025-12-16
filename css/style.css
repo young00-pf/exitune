@@ -86,7 +86,7 @@ html {
 }
 
 body {
-    font-family: 'Paperlogy', Pretendard;
+    font-family: 'Paperlogy', 'Pretendard';
     color: #333333;
     font-size: 14px;
     line-height: 1.6em;
@@ -652,6 +652,7 @@ h2 {
     line-height: 30px;
     border-bottom: 1px solid #ccc;
     background-color: #67B23030;
+    font-family: 'Pretendard';
 }
 .commu-text p {
     margin: 10px 0;
@@ -660,6 +661,9 @@ h2 {
     display: block;
     width: 80%;
     margin: 50px auto;
+}
+.commu-text strong {
+    font-weight: 600;
 }
 
 .box1_1>ul>li>span {
@@ -711,7 +715,7 @@ h2 {
     font-family: 'Pretendard';
     width: 1320px;
     height: 610px;
-    padding: 30px 25px;
+    padding: 25px 40px;
     border: 1px solid #ccc;
     position: relative;
     box-sizing: border-box;
@@ -773,7 +777,7 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 15px 0;
+    margin: 15px 0 20px;
 }
 
 .feed li {
@@ -808,12 +812,13 @@ h2 {
 
 .text {
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .text strong {
     margin-right: 10px;
     font-weight: 600;
+    font-size: 22px;
 }
 
 /* section8 gallery */
